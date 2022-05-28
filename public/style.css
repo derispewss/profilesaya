@@ -1,0 +1,119 @@
+* {
+    box-sizing: border-box;
+}
+
+/* element selector */
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    background-color: #0d47a1;
+    padding: 10px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+nav a:hover {
+    font-weight: bold;
+}
+
+nav li  {
+    list-style-type: none;
+    display: inline;
+    margin-right: 20px;
+}
+
+main {
+    overflow: auto;
+    padding: 15px;
+}
+
+/* grouping selector */
+h2 {
+    color: #0d47a1;
+}
+
+aside {
+    text-align: center;
+    width: 24%;
+    float: left;
+}
+
+/* class selector */
+.rizz {
+    background-color: #1e88e5;
+    font-size: 20px;
+    padding: 50px;
+    text-align: center;
+    color: #ffffff;
+}
+
+.card {
+    border-radius: 5px;
+    padding: 15px;
+    box-shadow: 0 4px 8px gainsboro;
+}
+
+.content {
+    width: 75%;
+    float: right;
+}
+
+.text-bold {
+    font-weight: bold;
+}
+
+.label {
+    background-color: #0d47a1;
+    color: #ffffff;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.imgcoy{
+    border-radius: 5%;
+}
+
+.utm {
+    background-color: #0d47a1;
+    padding: 20px;
+    color: #ffffff;
+    text-align: center;
+}
+
+.prof {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #ffffff;
+    padding: 15px;
+    background-color: #004d40;
+    margin: 0;
+}
+
+.biod {
+    font-family: 'Bree Serif', serif;
+    padding: 15px;
+}
+
+.hobi {
+    background-color: #00695c;
+    color: white;
+    padding: 1px;
+}
+
+.ftdw {
+    padding: 15px;
+    color: black;
+}
+
+@media screen and (max-width: 922px) {
+    .content, aside {
+        width: 100%;
+    }
+
+}
